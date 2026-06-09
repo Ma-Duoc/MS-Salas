@@ -79,22 +79,6 @@ El microservicio se ejecuta en el puerto **8084**.
 - `tipo`: String (opcional)
 - `capacidad`: Integer (opcional)
 
-## Instalación y Ejecución
-
-### Prerrequisitos
-- Java 21 o superior
-- Maven 3.6+
-
-### Ejecutar el proyecto
-
-```bash
-# Compilar el proyecto
-mvn clean install
-
-# Ejecutar la aplicación
-mvn spring-boot:run
-```
-
 La aplicación estará disponible en `http://localhost:8084`
 
 ### Consola H2
